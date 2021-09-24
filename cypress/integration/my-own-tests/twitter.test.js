@@ -17,7 +17,7 @@ describe('Basic Test', () => {
 
     })
 
-    it('Follow Sainsburys', () => {
+    it('Follow Twitter', () => {
 
         cy.get('[data-testid="LoginForm_Login_Button"]').first().click()
         cy.get('[data-testid="SearchBox_Search_Input"]').type('Twitter')
